@@ -8,7 +8,7 @@ import os
 DB_CONFIG = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'Nibedita_612',  # Set your MySQL password here
+    'password': '',  # Set your MySQL password here
     'database': 'ai_prescriptor'
 }
 
