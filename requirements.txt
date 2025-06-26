@@ -1,0 +1,11 @@
+streamlit
+pandas
+SpeechRecognition
+pydub
+streamlit-webrtc
+fpdf2
+openai-whisper
+rapidfuzz
+mysql-connector-python
+bcrypt
+streamlit-authenticator 
