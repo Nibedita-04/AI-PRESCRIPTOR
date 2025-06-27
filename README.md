@@ -54,28 +54,12 @@ pip install -r requirements.txt
    - Run installer and follow setup wizard
    - Remember the root password you set
 
-#### macOS
-```bash
-# Install Homebrew if not already installed
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# Install dependencies
-brew install ffmpeg mysql
-```
-
-#### Linux (Ubuntu/Debian)
-```bash
-sudo apt update
-sudo apt install ffmpeg mysql-server
-```
 
 ### 5. Configure Database
 
 1. **Start MySQL Service**
    ```bash
    # Windows: MySQL should start automatically
-   # macOS: brew services start mysql
-   # Linux: sudo systemctl start mysql
    ```
 
 2. **Create Database**
